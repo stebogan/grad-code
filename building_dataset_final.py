@@ -1,4 +1,8 @@
 #%% Modules, Classes and Functions
+
+# Perform classification on a building data set. Take weather variables and building power load as 
+# feature inputs and predict the month of the measurement (June, July, August).
+
 import numpy as np
 from sklearn.model_selection import KFold
 import torch
